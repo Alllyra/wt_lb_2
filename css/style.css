@@ -1,0 +1,115 @@
+.modal {
+  display: none;
+  position: fixed; 
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  border: 1px solid #878787;
+  background-color: #f5f5f5;
+}
+
+nav .logo-website-name {
+  display: flex;
+  justify-content: space-between;
+}
+nav .logo {
+  display: flex;
+  height: 50px;
+  width: 40px;
+  align-items: center;
+  text-align: center;
+  background-color: #731173;
+  justify-content: center;
+}
+nav .logo {
+  color: #f5f5f5;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  font-weight: 100;
+}
+nav .website-name {
+  color: #731173;
+  align-self: center;
+  font-size: 16px;
+  margin-left: 30px;
+  font-weight: 400;
+}
+nav button {
+  background-color: #731173;
+  color: #f5f5f5;
+  font-size: 16px;
+  padding: 0 15px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  font-weight: 100;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #878787;
+  padding: 20px 0;
+  align-items: center;
+  margin-top: auto;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .about {
+  font-weight: bold;
+}
+footer .links {
+  display: flex;
+  gap: 10px;
+}
+footer img {
+  width: 75px;
+  height: auto;
+  padding: 15px;
+}/*# sourceMappingURL=style.css.map */
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid rgb(0, 17, 255);
+  width: 80%;
+  max-width: 400px;
+  position: relative; /* Добавлено */
+}
+
+.close {
+  color: #888;
+  position: absolute; /* Добавлено */
+  top: 10px; /* Добавлено */
+  right: 10px; /* Добавлено */
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #000;
+}
+
+header button {
+  background-color: #731173;
+  color: #f5f5f5;
+  font-size: 16px;
+  padding: 0 15px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  align-self: right;
+  font-weight: 100;
+}
+
+p {
+  margin-bottom: 10px;
+}
